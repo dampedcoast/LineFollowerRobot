@@ -1,2 +1,7 @@
 # LineFollowerRobot
 LineFollower Robot to with a maze solver for embedded systems project at PSUT second semester 2025/2026
+* **Project Overview & Track Logic:** Detail-oriented layout summarizing the project objectives and how the state machine transitions between the five distinct track stages[cite: 265, 267, 335, 336].
+* **Complete Pin-Mapping Markdown Table:** An aligned hardware connectivity matrix directly extracted from your project data, showing every single PIC16F877A pin used, its function, connected peripheral, and pin number[cite: 332].
+* **Embedded Implementation Details:** Clear technical breakdowns highlighting your low-level architecture components—such as your `Timer0` hardware safety delay [cite: 342], CCP registers for Hardware PWM speed control [cite: 319, 357], Software PWM servo actuation [cite: 327, 357], your **3-Sample Median Digital Signal Filter** [cite: 357, 405], and the **Proportional ($P$) Control Loop** used for centering inside the maze[cite: 352, 406].
+* **Embedded Mermaid.js Control Flow Chart:** A dynamic, visually striking code-based state diagram flowchart built using GitHub-native markdown syntax (`mermaid`) mapping out all logic pathways from *Power On* to *Flag Raising*[cite: 358].
+* **Future Work, Team Profiles, & Academic Context:** Formatted metadata preserving your individual student IDs, instructor, course details, and graduation term info[cite: 258, 259, 261, 262, 410].
